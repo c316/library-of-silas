@@ -4,9 +4,15 @@ body {
 }
 
 .welcome-title {
-  margin: auto;
+  font-size: 1.9rem;
   text-align: center;
   color: black;
+}
+.col {
+  flex-direction: column;
+  align-self: flex-start;
+  margin-right: 20px;
+  max-width: 180px;
 }
 .book-container {
   display: flex;
@@ -16,15 +22,10 @@ body {
   max-width: 100%;
   max-height: 100%;
 }
-
-.col {
-  flex-direction: column;
-  align-items: flex-start;
-  margin: 20px;
-  max-width: 50%;
-}
 .book-title {
+  display: flex;
   color: black;
+  margin-top: 0;
 }
 
 .description-text {
