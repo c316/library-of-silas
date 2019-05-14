@@ -8,14 +8,19 @@ body {
   text-align: center;
   color: black;
 }
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
 .col {
   flex-direction: column;
   align-self: flex-start;
   margin-right: 20px;
-  max-width: 180px;
+  max-width: 250px;
 }
 .book-container {
-  display: flex;
   justify-content: center;
 }
 .book-image {
